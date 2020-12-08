@@ -5,7 +5,7 @@ export class Point {
         public id: number,
         public latitude: number,
         public longitude: number,
-        public roads: RoadInfo,
+        public road: RoadInfo,
         public mileage: number
     ) {
     }

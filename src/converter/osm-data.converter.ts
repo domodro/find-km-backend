@@ -1,8 +1,12 @@
-import { Point, RoadClass, RoadInfo } from "../model/point.model";
-import { OSMData } from "../model/osm.model";
 import config from "../config/config.json";
+import { OSMData } from "../model/osm.model";
+import { Point, RoadClass, RoadInfo } from "../model/point.model";
 
-export class OSMDataConverter {
+export interface IOSMDataConverter {
+    convertData(data: OSMData): Array<Point>;
+}
+
+export class OSMDataConverter implements IOSMDataConverter {
 
     convertData(data: OSMData): Array<Point> {
         return data.elements
