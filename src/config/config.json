@@ -5,6 +5,25 @@
   "osm": {
     "host": "z.overpass-api.de",
     "path": "/api/interpreter",
-    "query": "[out:json];rel(2921002);map_to_area;node(area)[highway=milestone];out;"
-  }
+    "query": "[out:json];rel(2921002);map_to_area;node(area)[highway=milestone];out;",
+    "separator": ";"
+  },
+  "roads": [
+    {
+      "regex": "^A[0-9]{1,2}$",
+      "roadClass": "HIGHWAY"
+    },
+    {
+      "regex": "^S[0-9]{1,2}$",
+      "roadClass": "EXPRESSWAY"
+    },
+    {
+      "regex": "^[0-9]{1,2}$",
+      "roadClass": "NATIONAL"
+    },
+    {
+      "regex": "^[0-9]{3}$",
+      "roadClass": "REGIONAL"
+    }
+  ]
 }

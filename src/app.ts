@@ -1,11 +1,13 @@
 import express, { Express } from 'express';
 import config from './config/config.json';
+import { OSMDataConverter } from './converter/osm-data.converter';
 import { OSMDataService } from './service/osm.service';
 
 class App {
 
+  private dataConverter: OSMDataConverter = new OSMDataConverter();
+  private osmDataService: OSMDataService = new OSMDataService(this.dataConverter);
   private server: Express;
-  private osmDataService: OSMDataService = new OSMDataService();
 
   constructor() {
     this.server = express();
