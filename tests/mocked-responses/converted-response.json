@@ -1,0 +1,398 @@
+[
+    {
+        "id": 2939279428,
+        "latitude": 51.6376322,
+        "longitude": 19.500158,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 370
+    },
+    {
+        "id": 2939279429,
+        "latitude": 51.6450506,
+        "longitude": 19.4920713,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 369
+    },
+    {
+        "id": 2939279430,
+        "latitude": 51.6524664,
+        "longitude": 19.4840707,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 368
+    },
+    {
+        "id": 2939279431,
+        "latitude": 51.6602352,
+        "longitude": 19.4768493,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 367
+    },
+    {
+        "id": 2939279432,
+        "latitude": 51.6692116,
+        "longitude": 19.4759872,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 366
+    },
+    {
+        "id": 2939279433,
+        "latitude": 51.6782738,
+        "longitude": 19.4761671,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 365
+    },
+    {
+        "id": 2939279434,
+        "latitude": 51.6871739,
+        "longitude": 19.4765608,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 364
+    },
+    {
+        "id": 2939279435,
+        "latitude": 51.6961001,
+        "longitude": 19.4785293,
+        "road": {
+            "names": [
+                "1"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 363
+    },
+    {
+        "id": 3085458891,
+        "latitude": 51.6312669,
+        "longitude": 19.4192315,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 222
+    },
+    {
+        "id": 3085458892,
+        "latitude": 51.6329683,
+        "longitude": 19.4474481,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 224
+    },
+    {
+        "id": 3085458893,
+        "latitude": 51.6330007,
+        "longitude": 19.4617717,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 225
+    },
+    {
+        "id": 3085458894,
+        "latitude": 51.6331842,
+        "longitude": 19.4334846,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 223
+    },
+    {
+        "id": 3085458895,
+        "latitude": 51.6348083,
+        "longitude": 19.4763218,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 226
+    },
+    {
+        "id": 3085459069,
+        "latitude": 51.6768768,
+        "longitude": 19.5419086,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 5
+    },
+    {
+        "id": 3085460236,
+        "latitude": 51.6664092,
+        "longitude": 19.5035626,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 2
+    },
+    {
+        "id": 4548582240,
+        "latitude": 51.6557044,
+        "longitude": 19.5798153,
+        "road": {
+            "names": [
+                "A1"
+            ],
+            "classification": "HIGHWAY"
+        },
+        "mileage": 322
+    },
+    {
+        "id": 4548582244,
+        "latitude": 51.6468818,
+        "longitude": 19.5751438,
+        "road": {
+            "names": [
+                "A1"
+            ],
+            "classification": "HIGHWAY"
+        },
+        "mileage": 323
+    },
+    {
+        "id": 4548582245,
+        "latitude": 51.6642571,
+        "longitude": 19.5840571,
+        "road": {
+            "names": [
+                "A1"
+            ],
+            "classification": "HIGHWAY"
+        },
+        "mileage": 321
+    },
+    {
+        "id": 5318845302,
+        "latitude": 51.6781349,
+        "longitude": 19.5562627,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 6
+    },
+    {
+        "id": 5318845303,
+        "latitude": 51.6757181,
+        "longitude": 19.5276749,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 4
+    },
+    {
+        "id": 5318845304,
+        "latitude": 51.6714268,
+        "longitude": 19.5154925,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 3
+    },
+    {
+        "id": 5318845305,
+        "latitude": 51.6630919,
+        "longitude": 19.4901576,
+        "road": {
+            "names": [
+                "714"
+            ],
+            "classification": "REGIONAL"
+        },
+        "mileage": 1
+    },
+    {
+        "id": 5398147488,
+        "latitude": 51.6609185,
+        "longitude": 19.4743535,
+        "road": {
+            "names": [
+                "71"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 52
+    },
+    {
+        "id": 5398147489,
+        "latitude": 51.6613223,
+        "longitude": 19.459828,
+        "road": {
+            "names": [
+                "71"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 51
+    },
+    {
+        "id": 5398147490,
+        "latitude": 51.6617256,
+        "longitude": 19.4453379,
+        "road": {
+            "names": [
+                "71"
+            ],
+            "classification": "NATIONAL"
+        },
+        "mileage": 50
+    },
+    {
+        "id": 7579069948,
+        "latitude": 51.6400343,
+        "longitude": 19.5045868,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 228
+    },
+    {
+        "id": 7579069951,
+        "latitude": 51.638646,
+        "longitude": 19.5005929,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 227.7
+    },
+    {
+        "id": 7579069952,
+        "latitude": 51.6379402,
+        "longitude": 19.4982058,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 227.5
+    },
+    {
+        "id": 7579069953,
+        "latitude": 51.6375723,
+        "longitude": 19.4967413,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 227.4
+    },
+    {
+        "id": 7579069954,
+        "latitude": 51.6363671,
+        "longitude": 19.4900653,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 226.9
+    },
+    {
+        "id": 7579069955,
+        "latitude": 51.636025,
+        "longitude": 19.4872275,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 226.7
+    },
+    {
+        "id": 7579069956,
+        "latitude": 51.634987,
+        "longitude": 19.4787437,
+        "road": {
+            "names": [
+                "S8",
+                "S8e"
+            ],
+            "classification": "EXPRESSWAY"
+        },
+        "mileage": 226.1
+    }
+]

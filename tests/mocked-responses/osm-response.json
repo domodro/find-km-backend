@@ -1,0 +1,388 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.8 7d656e78",
+  "osm3s": {
+    "timestamp_osm_base": "2020-12-08T17:11:02Z",
+    "timestamp_areas_base": "2020-12-08T16:53:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2939279428,
+      "lat": 51.6376322,
+      "lon": 19.5001580,
+      "tags": {
+        "distance": "370",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279429,
+      "lat": 51.6450506,
+      "lon": 19.4920713,
+      "tags": {
+        "distance": "369",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279430,
+      "lat": 51.6524664,
+      "lon": 19.4840707,
+      "tags": {
+        "distance": "368",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279431,
+      "lat": 51.6602352,
+      "lon": 19.4768493,
+      "tags": {
+        "distance": "367",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279432,
+      "lat": 51.6692116,
+      "lon": 19.4759872,
+      "tags": {
+        "distance": "366",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279433,
+      "lat": 51.6782738,
+      "lon": 19.4761671,
+      "tags": {
+        "distance": "365",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279434,
+      "lat": 51.6871739,
+      "lon": 19.4765608,
+      "tags": {
+        "distance": "364",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279435,
+      "lat": 51.6961001,
+      "lon": 19.4785293,
+      "tags": {
+        "distance": "363",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085458891,
+      "lat": 51.6312669,
+      "lon": 19.4192315,
+      "tags": {
+        "distance": "222",
+        "highway": "milestone",
+        "ref": "S8;S8e",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085458892,
+      "lat": 51.6329683,
+      "lon": 19.4474481,
+      "tags": {
+        "distance": "224",
+        "highway": "milestone",
+        "ref": "S8;S8e",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085458893,
+      "lat": 51.6330007,
+      "lon": 19.4617717,
+      "tags": {
+        "distance": "225",
+        "highway": "milestone",
+        "ref": "S8;S8e",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085458894,
+      "lat": 51.6331842,
+      "lon": 19.4334846,
+      "tags": {
+        "distance": "223",
+        "highway": "milestone",
+        "ref": "S8;S8e",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085458895,
+      "lat": 51.6348083,
+      "lon": 19.4763218,
+      "tags": {
+        "distance": "226",
+        "highway": "milestone",
+        "ref": "S8;S8e",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085459069,
+      "lat": 51.6768768,
+      "lon": 19.5419086,
+      "tags": {
+        "distance": "5",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3085460236,
+      "lat": 51.6664092,
+      "lon": 19.5035626,
+      "tags": {
+        "distance": "2",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548582240,
+      "lat": 51.6557044,
+      "lon": 19.5798153,
+      "tags": {
+        "distance": "322",
+        "highway": "milestone",
+        "ref": "A1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548582244,
+      "lat": 51.6468818,
+      "lon": 19.5751438,
+      "tags": {
+        "distance": "323",
+        "highway": "milestone",
+        "ref": "A1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4548582245,
+      "lat": 51.6642571,
+      "lon": 19.5840571,
+      "tags": {
+        "distance": "321",
+        "highway": "milestone",
+        "ref": "A1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318845302,
+      "lat": 51.6781349,
+      "lon": 19.5562627,
+      "tags": {
+        "distance": "6",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "interpolacja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318845303,
+      "lat": 51.6757181,
+      "lon": 19.5276749,
+      "tags": {
+        "distance": "4",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "interpolacja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318845304,
+      "lat": 51.6714268,
+      "lon": 19.5154925,
+      "tags": {
+        "distance": "3",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "interpolacja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5318845305,
+      "lat": 51.6630919,
+      "lon": 19.4901576,
+      "tags": {
+        "distance": "1",
+        "highway": "milestone",
+        "ref": "714",
+        "source": "interpolacja"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5398147488,
+      "lat": 51.6609185,
+      "lon": 19.4743535,
+      "tags": {
+        "distance": "52",
+        "highway": "milestone",
+        "ref": "71",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5398147489,
+      "lat": 51.6613223,
+      "lon": 19.4598280,
+      "tags": {
+        "distance": "51",
+        "highway": "milestone",
+        "ref": "71",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5398147490,
+      "lat": 51.6617256,
+      "lon": 19.4453379,
+      "tags": {
+        "distance": "50",
+        "highway": "milestone",
+        "ref": "71",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069948,
+      "lat": 51.6400343,
+      "lon": 19.5045868,
+      "tags": {
+        "distance": "228",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069951,
+      "lat": 51.6386460,
+      "lon": 19.5005929,
+      "tags": {
+        "distance": "227.7",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069952,
+      "lat": 51.6379402,
+      "lon": 19.4982058,
+      "tags": {
+        "distance": "227.5",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069953,
+      "lat": 51.6375723,
+      "lon": 19.4967413,
+      "tags": {
+        "distance": "227.4",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069954,
+      "lat": 51.6363671,
+      "lon": 19.4900653,
+      "tags": {
+        "distance": "226.9",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069955,
+      "lat": 51.6360250,
+      "lon": 19.4872275,
+      "tags": {
+        "distance": "226.7",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7579069956,
+      "lat": 51.6349870,
+      "lon": 19.4787437,
+      "tags": {
+        "distance": "226.1",
+        "highway": "milestone",
+        "ref": "S8;S8e"
+      }
+    }
+  ]
+}

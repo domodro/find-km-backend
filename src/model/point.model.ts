@@ -15,12 +15,12 @@ export class RoadInfo {
 
     constructor(
         public names: Array<string>,
-        public roadClass: RoadClass
+        public classification: RoadClassification
     ) {
     }
 }
 
-export enum RoadClass {
+export enum RoadClassification {
     HIGHWAY = "HIGHWAY",
     EXPRESSWAY = "EXPRESSWAY",
     NATIONAL = "NATIONAL",

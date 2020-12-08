@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.8 7d656e78",
+  "osm3s": {
+    "timestamp_osm_base": "2020-12-08T17:11:02Z",
+    "timestamp_areas_base": "2020-12-08T16:53:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2939279428,
+      "lat": 51.6376322,
+      "lon": 19.5001580,
+      "tags": {
+        "distance": "370",
+        "highway": "milestone",
+        "ref": "A 1245125",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279429,
+      "lat": 51.6450506,
+      "lon": 19.4920713,
+      "tags": {
+        "distance": "369",
+        "highway": "milestone",
+        "ref": null,
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279430,
+      "lat": 51.6524664,
+      "lon": 19.4840707,
+      "tags": {
+        "distance": null,
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279431,
+      "lat": null,
+      "lon": 19.4768493,
+      "tags": {
+        "distance": "367",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2939279432,
+      "lat": 51.6692116,
+      "lon": null,
+      "tags": {
+        "distance": "366",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    },
+    {
+      "type": "node",
+      "id": null,
+      "lat": 51.6782738,
+      "lon": 19.4761671,
+      "tags": {
+        "distance": "365",
+        "highway": "milestone",
+        "ref": "1",
+        "source": "GPS(APK:StrazakOSM)"
+      }
+    }
+  ]
+}

@@ -1,6 +1,5 @@
+import axios, { AxiosResponse } from 'axios';
 import { CronJob } from 'cron';
-import { ClientRequest } from 'http';
-import https, { RequestOptions } from 'https';
 import config from '../config/config.json';
 import { IOSMDataConverter } from '../converter/osm-data.converter';
 import { OSMData } from '../model/osm.model';
@@ -22,32 +21,19 @@ export class OSMDataService implements IOSMDataService {
         this.job.start();
     }
 
-    private fetchData(): void {
-        let options: RequestOptions = {
-            method: 'POST',
-            host: config.osm.host,
-            path: config.osm.path,
-            headers: {
-                'Content-Length': config.osm.query.length
-            }
-        };
-        console.log('Requesting update of OSM data');
-        let request: ClientRequest = https.request(options, response => {
-            console.log(`OSM node response: ${response.statusCode} ${response.statusMessage}`);
-            
-            let buffers: Array<Buffer> = [];
-            response.on('data', (buffer: Buffer) => {
-                buffers.push(buffer);
-            });
-            response.on('end', () => {
-                let buffer = Buffer.concat(buffers);
-                let data: OSMData = JSON.parse(buffer.toString());
-                this.data = this.conversionService.convertData(data);
+    fetchData(): void {
+        this.getData().then(data => this.data = data)
+            .catch(reason => console.log(reason));
+    }
 
-                console.log(`Successfully fetched OSM data, fetched ${this.data.length} points`);
+    getData(): Promise<Array<Point>> {
+        console.log('Requesting update of OSM data');
+        return axios.post(`${config.osm.host}${config.osm.path}`, config.osm.query)
+            .then((response: AxiosResponse<OSMData>) => {
+                console.log(`OSM response: ${response.status} ${response.statusText}`);
+                let data: Array<Point> = this.conversionService.convertData(response.data);
+                console.log(`Successfully fetched OSM data - ${data.length} points`);
+                return data;
             });
-        });
-        request.write(config.osm.query);
-        request.end;
     }
 }
