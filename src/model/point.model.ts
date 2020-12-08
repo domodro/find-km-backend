@@ -24,5 +24,6 @@ export enum RoadClass {
     HIGHWAY = "HIGHWAY",
     EXPRESSWAY = "EXPRESSWAY",
     NATIONAL = "NATIONAL",
-    REGIONAL = "REGIONAL"
+    REGIONAL = "REGIONAL",
+    DISTRICT = "DISTRICT"
 }
