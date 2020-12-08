@@ -1,0 +1,10 @@
+{
+  "app": {
+    "port": 8080
+  },
+  "osm": {
+    "host": "z.overpass-api.de",
+    "path": "/api/interpreter",
+    "query": "[out:json];rel(2921002);map_to_area;node(area)[highway=milestone];out;"
+  }
+}
