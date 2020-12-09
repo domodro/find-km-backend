@@ -69,5 +69,16 @@ describe('OSMDataConverter', () => {
                 expect(result.classification).to.equal(data.expected.classification);
             });
         });
+
+        it(`should return undefined for unknown road`, () => {
+            // given
+            let roadName = '124789f';
+
+            // when
+            let result = dataConverter.convertRoadInfo(roadName);
+
+            // then
+            expect(result).to.be.undefined;
+        });
     });
 });
